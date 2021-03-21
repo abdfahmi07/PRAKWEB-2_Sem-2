@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 238);
+}
+
+/* Form Nilai */
+.form__nilai, .data__siswa {
+    max-width: 800px;
+    margin: 70px auto;
+}
+
+.form__nilai h3 {
+    color: white;
+    margin-top: 5px;
+}
+
+span {
+    margin: 0 auto 20px auto;
+}
+
+.output__card {
+    margin: 0 auto 30px auto;
+}
+
