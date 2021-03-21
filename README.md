@@ -1,4 +1,6 @@
 # PRAKWEB-2_Sem-2
 
 Interface
-![image](https://user-images.githubusercontent.com/46467962/111901328-0893c300-8a6a-11eb-9092-35f2658811ab.png)
+
+![image](https://user-images.githubusercontent.com/46467962/111901464-f403fa80-8a6a-11eb-8b89-5ceac3fba92b.png)
+
