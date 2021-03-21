@@ -78,17 +78,17 @@
                         $weight = $_POST['weight'];
                         $height = $_POST['height'];
                         $age = $_POST['age'];
-                            $gender = $_POST['gender'];
-                            $pasien1 = new BMIPasien($name, $weight, $height, $age, $gender);
+                        $gender = $_POST['gender'];
+                        $pasien1 = new BMIPasien($name, $weight, $height, $age, $gender);
                             
                             
-                            echo 'Nama : ' . $pasien1->name . '</br>';
-                            echo 'Berat Badan : ' . $pasien1->weight . '</br>';
-                            echo 'Tinggi Badan : ' . $pasien1->height . '</br>' ;
-                            echo 'Umur : ' . $pasien1->age. '</br>';
-                            echo 'Gender : ' . $pasien1->gender . '</br>';
-                            echo 'BMI : ' . round($pasien1->hasilBMI()) . '</br>';
-                            echo 'Status : ' . $pasien1->statusBMI() . '</br>';
+                        echo 'Nama : ' . $pasien1->name . '</br>';
+                        echo 'Berat Badan : ' . $pasien1->weight . '</br>';
+                        echo 'Tinggi Badan : ' . $pasien1->height . '</br>' ;
+                        echo 'Umur : ' . $pasien1->age. '</br>';
+                        echo 'Gender : ' . $pasien1->gender . '</br>';
+                        echo 'BMI : ' . round($pasien1->hasilBMI()) . '</br>';
+                        echo 'Status : ' . $pasien1->statusBMI() . '</br>';
                         }
                         ?>
                 </div>
